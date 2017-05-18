@@ -1,0 +1,498 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Form plugin by Plance\n"
+"POT-Creation-Date: 2015-12-16 18:11+0300\n"
+"PO-Revision-Date: 2015-12-16 18:12+0300\n"
+"Last-Translator: Pavel\n"
+"Language-Team: \n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: /www/cms-free/wordpress/www/wp-content/plugins/my-"
+"simple-form\n"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/admin_init.php:24
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/User.php:153
+msgid "List applications"
+msgstr "Список заявок"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/admin_init.php:24
+msgid "Applications"
+msgstr "Заявки"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/admin_init.php:25
+msgid "Configure fields"
+msgstr "Настройки полей"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/admin_init.php:26
+msgid "Notification"
+msgstr "Уведомления"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:38
+msgid "Day"
+msgstr "День"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:46
+msgid "Month"
+msgstr "Месяц"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:54
+msgid "Year"
+msgstr "Год"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:73
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Notification.php:65
+msgid "\"{field}\" must not be empty"
+msgstr "Поле \"{field}\" не должно быть пустым"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:74
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Notification.php:66
+msgid "\"{field}\" must be a email"
+msgstr "Поле \"{field}\" должно содержать правильный почтовый ящик"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:75
+msgid "Minimum age \"{param1}\""
+msgstr "Минимально допустимый возраст \"{param1}\""
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:76
+msgid "The maximum age limit \"{param1}\""
+msgstr "Максимально допустимый возраст \"{param1}\""
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:77
+msgid "You must select day"
+msgstr "Вы должны выбрать день"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:78
+msgid "You must select month"
+msgstr "Вы должны выбрать месяц"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:79
+msgid "You must select year"
+msgstr "Вы должны выбрать год"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:80
+msgid "You must select file for \"{field}\""
+msgstr "Вы должны выбрать файл для поля \"{field}\""
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:81
+msgid "During upload file for \"{field}\" the error occurred"
+msgstr "Во время загрузки файла для поля \"{field}\" возникла ошибка"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:82
+msgid "You upload wrong file type for \"{field}\""
+msgstr "Вы загружаете не верный тип файла для поля \"{field}\""
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:236
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/user/view.php:44
+msgid "Yes"
+msgstr "Да"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/index_init.php:236
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/user/view.php:44
+msgid "No"
+msgstr "Нет"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/helper/table/User.php:56
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/user/view.php:12
+msgid "ID"
+msgstr "ID"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/helper/table/User.php:66
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/user/view.php:60
+msgid "Date create"
+msgstr "Дата создания"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/helper/table/User.php:129
+msgid "Data not found"
+msgstr "Данные отсутствуют"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/helper/table/User.php:139
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/helper/table/User.php:179
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/helper/table/User.php:186
+msgid "delete"
+msgstr "удалить"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:2
+msgid "Notification options"
+msgstr "Настройки уведомлений"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:35
+msgid "Use this shortcode in your posts or pages"
+msgstr ""
+"Чтобы отобразить форму обратной связи, используйте этот шорткод в тексте "
+"постов или страниц"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:52
+msgid "Use next pseudotag in above message:"
+msgstr ""
+"Используйте следующие псевдотеги в форме выше, чтобы сформировать сообщение."
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:54
+msgid "{name} - Name"
+msgstr "{name} - Имя"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:55
+msgid "{surname} - Surname"
+msgstr "{surname} - Фамилия"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:56
+msgid "{patronymic} - Patronymic"
+msgstr "{patronymic} - Отчество"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:57
+msgid "{company} - Company"
+msgstr "{company} - Компания"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:58
+msgid "{birthday} - Birthday"
+msgstr "{birthday} - Дата рождения"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:59
+msgid "{phone} - Phone"
+msgstr "{phone} - Телефон"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:60
+msgid "{email} - Email"
+msgstr "{email} - Email"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:61
+msgid "{messenger} - Messenger"
+msgstr "{messenger} - Средства связи"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:62
+msgid "{site} - Site"
+msgstr "{site} - Сайт"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:63
+msgid "{country} - Country"
+msgstr "{country} - Страна"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:64
+msgid "{city} - City"
+msgstr "{city} - Город"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:65
+msgid "{address} - Address"
+msgstr "{address} - Адрес"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:66
+msgid "{credit_card} - Credit card"
+msgstr "{card} - Кредитная карта"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:67
+msgid "{sum} - Sum"
+msgstr "{sum} - Сумма"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:68
+msgid "{comment} - Comment"
+msgstr "{comment} - Комментарий"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:69
+msgid "{image} - Image"
+msgstr "{image} - Изображение"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:70
+msgid "{file} - File"
+msgstr "{file} - Фаил"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:71
+msgid "{radio} - Radio element"
+msgstr "{radio} - Выбор из списка"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:72
+msgid "{select} - Select element"
+msgstr "{select} - Выпадающий список"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/notification/form.php:73
+msgid "{checkbox} - Checkbox element"
+msgstr "{checkbox} - Элемент чекбокс"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:2
+msgid "Configure form fields"
+msgstr "Настройки полей формы"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:7
+msgid "Field title"
+msgstr "Название поля"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:8
+msgid "Your title"
+msgstr "Ваше название"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:9
+msgid "Show on form?"
+msgstr "Отображать на форме?"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:10
+msgid "Order on form"
+msgstr "Порядок отображения на форме"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:11
+msgid "Required to fill?"
+msgstr "Обязательное для заполнения?"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:12
+msgid "Options"
+msgstr "Опции"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:15
+msgid "Name"
+msgstr "Имя"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:22
+msgid "Surname"
+msgstr "Фамилия"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:29
+msgid "Patronymic"
+msgstr "Отчество"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:36
+msgid "Company"
+msgstr "Компания"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:43
+msgid "Birthday"
+msgstr "Дата рождения"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:49
+msgid "Min age:"
+msgstr "Мин. лет"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:51
+msgid "Max age:"
+msgstr "Макс лет."
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:53
+msgid "Set to zero to not use an age limit"
+msgstr "Установите в ноль чтобы не использовать ограничение"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:57
+msgid "Phone"
+msgstr "Телефон"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:64
+msgid "E-mail"
+msgstr "E-mail"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:71
+msgid "Messenger"
+msgstr "Средства связи"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:78
+msgid "Site"
+msgstr "Сайт"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:85
+msgid "Country"
+msgstr "Страна"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:92
+msgid "City"
+msgstr "Город"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:99
+msgid "Address"
+msgstr "Адрес"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:106
+msgid "Credit card"
+msgstr "Кредитная карта"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:113
+msgid "Sum"
+msgstr "Сумма"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:120
+msgid "Image"
+msgstr "Изображение"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:126
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:136
+msgid "Extensions:"
+msgstr "Расширения:"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:130
+msgid "File"
+msgstr "Файл"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:140
+msgid "Comment"
+msgstr "Комментарий"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:147
+msgid "Radio"
+msgstr "Radio"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:153
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:163
+msgid "Options:"
+msgstr "Опции:"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:157
+msgid "Select"
+msgstr "Select"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:167
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/config/form.php:175
+msgid "Use comma for separate options"
+msgstr "Используйте запятую в качестве разделителя"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/user/view.php:8
+msgid "Users "
+msgstr "Пользователи"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/admin/user/view.php:34
+msgid "is Delete?"
+msgstr "продолжить удаление?"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/index/form.php:30
+msgid "- day -"
+msgstr "- день -"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/index/form.php:36
+msgid "- month -"
+msgstr "- месяц -"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/index/form.php:42
+msgid "- year -"
+msgstr "- год -"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/view/index/form.php:99
+msgid "Send"
+msgstr "Отправить"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Notification.php:21
+msgid "Admin Email"
+msgstr "Email Администратора"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Notification.php:22
+msgid "Admin Name"
+msgstr "Имя Администратора"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Notification.php:23
+msgid "Noreply Email"
+msgstr "Noreply Email"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Notification.php:24
+msgid "Noreply Name"
+msgstr "Noreply Имя"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Notification.php:25
+msgid "Shortcode Name"
+msgstr "Название шорткода"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Notification.php:26
+msgid "Message subject"
+msgstr "Тема сообщения"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Notification.php:27
+msgid "Message template"
+msgstr "Шаблон сообщения"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Notification.php:28
+msgid "Flash Message"
+msgstr "Флеш-сообщение пользователю"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Notification.php:67
+msgid "\"{field}\" does not match the required format"
+msgstr ""
+"Шорткод должен начинаться и заканчиваться на буквы, а содержать в себе "
+"буквы, цифры, тире и подчеркивания"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Notification.php:74
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/Config.php:64
+msgid "Configure updated"
+msgstr "Настройки обновлены"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/User.php:73
+msgid "User(s) deleted"
+msgstr "Пользователи удалены"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/User.php:127
+msgid "File deleted"
+msgstr "Файл удален"
+
+#: /www/cms-free/wordpress/www/wp-content/plugins/my-simple-form/app/controller/admin/User.php:156
+msgid "Search"
+msgstr "Поиск"
+
+#~ msgid "Application deleted"
+#~ msgstr "Заявка удалена"
+
+#~ msgid "Title"
+#~ msgstr "Название"
+
+#~ msgid "Card"
+#~ msgstr "Кредитная карта"
+
+#~ msgid "{image_additional} - Images (additional)"
+#~ msgstr "{image_additional} - Изображения (дополнительные)"
+
+#~ msgid "{file_main} - File (main)"
+#~ msgstr "{file_main} - Файл (основной)"
+
+#~ msgid "{file_additional} - Files (additional)"
+#~ msgstr "{file_additional} - Файлы (дополнительные)"
+
+#~ msgid "{options} - Selected option"
+#~ msgstr "{options} - Выбранная опция"
+
+#~ msgid "Main image"
+#~ msgstr "Главное изображение"
+
+#~ msgid "Additional image"
+#~ msgstr "Дополнительные изображения"
+
+#~ msgid "Count images:"
+#~ msgstr "Количество изображений:"
+
+#~ msgid "Main file"
+#~ msgstr "Главный файл"
+
+#~ msgid "Additional files"
+#~ msgstr "Дополнительные файлы"
+
+#~ msgid "Count files:"
+#~ msgstr "Количество файлов:"
+
+#~ msgid "Options (radio button)"
+#~ msgstr "Опции (переключатель)"
+
+#~ msgid "List users"
+#~ msgstr "Список пользователей"
+
+#, fuzzy
+#~ msgid "Your Name:"
+#~ msgstr "Noreply Имя"
+
+#, fuzzy
+#~ msgid "Your Email:"
+#~ msgstr "Noreply Email"
+
+#, fuzzy
+#~ msgid "Message:"
+#~ msgstr "Средства связи"
+
+#, fuzzy
+#~ msgid "Options updated"
+#~ msgstr "Опции"
+
+#~ msgid "Configure form"
+#~ msgstr "Настройки формы"
+
+#~ msgid "Config"
+#~ msgstr "Настройки"
+
+#~ msgid "Sorting"
+#~ msgstr "Сортировка"
